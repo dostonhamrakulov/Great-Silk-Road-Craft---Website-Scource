@@ -708,7 +708,7 @@ font-size: 6rem;
 
 /* Features section css */
 .features{
-	background:url(../images/new/back_1.PNG) center center no-repeat;
+	background:url(../images/back_1.PNG) center center no-repeat;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -721,7 +721,7 @@ font-size: 6rem;
 	display:inline-block;
 }
 .main_features_content{
-	background:url(../images/new/images_1.jpg) right center no-repeat;
+	background:url(../images/images_1.jpg) right center no-repeat;
 	padding:40px;
 	overflow:hidden;
 }

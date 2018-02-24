@@ -1069,3 +1069,14 @@ font-size: 6rem;
   font-weight: 300;
   margin: 0;
 }
+
+
+
+/* ======================   Error 404     ================================ */
+#erroring{
+
+  padding-top: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}

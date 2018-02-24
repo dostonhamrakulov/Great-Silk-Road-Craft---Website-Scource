@@ -11,7 +11,7 @@ Author URI: http://bootstrapthemes.co
    ========================================================================== */
 html,
 body {
-    background-color: #1E2E3B;
+    background-color: #333;
     font-size: 15px;
     color: #565656;
     width: 100%;
@@ -126,7 +126,7 @@ input[type="color"],
     font-size: 16px;
     height: 34px;
     max-width: 90%;
-    background: #323232;
+    background: #ffffff;
 }
 .form-control:focus {
     border-color: #d6962c;
@@ -969,6 +969,7 @@ font-size: 6rem;
     width: 80%;
     margin: 0 auto;
     margin-bottom: 150px;
+    color: white;
 }
 
 
@@ -1050,4 +1051,21 @@ font-size: 6rem;
 	margin-left: -6px;
 	text-decoration: none;
 
+}
+
+
+
+/* ========================   Contact us    ========================= */
+#contacting{
+
+  padding-top: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+.contact_1{
+  text-align: left;
+  font-family: 'Georgia', sans-serif;
+  font-weight: 300;
+  margin: 0;
 }

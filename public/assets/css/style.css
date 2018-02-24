@@ -695,7 +695,7 @@ font-size: 6rem;
   overflow: hidden;
 }
 .abouts_content{
-	padding:120px 0px;
+	padding:50px 0px;
 	display:inline-block;
 }
 .single_abouts_text h4{
@@ -955,6 +955,41 @@ font-size: 6rem;
 	font-size:25px;
 	color:#e7a331;
 }
+
+
+/* Contact */
+
+.contact_header>h1{
+    color: white !important;
+    font-weight: 100;
+    font-size: 58px;
+
+}
+.row.contact{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+
+
+
+.container.contactwithme {
+    background-color: #333;
+
+    padding-top: 90px;
+}
+
+.container.contact {
+
+    background: url(../images/map-image.png) no-repeat;
+    background-size: cover;
+
+
+}
+
+/* End Contact */
+
 
 
 .single_widget_info p span.date_day{

@@ -28,6 +28,8 @@
         <link rel="stylesheet" href="assets/css/responsive.css" />
 
         <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+          <script src="assets/js/jquery.flagstrap.js"></script>
+
     </head>
     <body>
 
@@ -38,8 +40,17 @@
                     <div class="row">
                         <div class="col-md-5 col-md-offset-3 col-sm-12 text-right">
                             <div class="call_us_text">
-								<a href=""><i class="fa fa-clock-o"></i> Order Foods 24/7</a>
-								<a href=""><i class="fa fa-phone"></i>061 9876 5432</a>
+                              <form class="form-horizontal">
+
+								<span class="flag-icon flag-icon-us"><a href="">English<a></span>
+                <span class="flag-icon flag-icon-us"><a href="">Uzbek<a></span>
+                <span class="flag-icon flag-icon-us"><a href="">Russian<a></span>
+                <select class="selectpicker" data-width="fit">
+    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+  <option  data-content='<span class="flag-icon flag-icon-uz"></span> Español'>Uzbek</option>
+  <option  data-content='<span class="flag-icon flag-icon-ru"></span> Español'>Russian</option>
+</select>
+
 							</div>
                         </div>
 
@@ -83,12 +94,12 @@
 
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="#slider">Home</a></li>
-                                        <li><a href="#abouts">Menu</a></li>
-                                        <li><a href="#features">Features</a></li>
-                                        <li><a href="#portfolio">Delivery</a></li>
-                                        <li><a href="#ourPakeg">News</a></li>
-                                        <li><a href="#mobaileapps">Pages</a></li>
-                                        <li><a href="#" class="booking">Table Booking</a></li>
+                                        <li><a href="#abouts">Collection</a></li>
+                                        <li><a href="about.html">About Uzbekistan</a></li>
+                                        <li><a href="#portfolio">Gallery</a></li>
+                                        <li><a href="#ourPakeg">Contact us</a></li>
+                                        <!-- <li><a href="#mobaileapps">Pages</a></li>
+                                        <li><a href="#" class="booking">Table Booking</a></li> -->
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                             </div><!-- /.container-fluid -->
@@ -107,8 +118,8 @@
                             <div class="col-md-12">
                                 <div class="main_slider_content wow zoomIn" data-wow-duration="1s">
                                     <h1>Great Silk Road Craft</h1>
-                                    <p>This is the personal blog</p>
-                                    <button href="" class="btn-lg">Click here</button>
+                                    <!-- <p>This is the personal blog</p> -->
+                                    <!-- <button href="" class="btn-lg">Click here</button> -->
                                 </div>
                             </div>
                         </div>
@@ -254,7 +265,13 @@
             </div>
         </section>
 
-        <section id="ourPakeg" class="ourPakeg">
+
+
+
+<!-- ================================= Start Recipes Section =========================== -->
+
+
+        <!-- <section id="ourPakeg" class="ourPakeg">
             <div class="container">
                 <div class="main_pakeg_content">
                     <div class="row">
@@ -319,9 +336,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section id="mobaileapps" class="mobailapps">
+        <!-- =================================   End App =========================== -->
+<!-- =================================   Mobile App =========================== -->
+        <!-- <section id="mobaileapps" class="mobailapps">
             <div class="slider_overlay">
                 <div class="container">
                     <div class="row">
@@ -342,9 +361,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section id="footer_widget" class="footer_widget">
+<!-- =================================  END Mobile App =========================== -->
+
+
+<!-- =================================   Footer =========================== -->
+        <!-- <section id="footer_widget" class="footer_widget">
             <div class="container">
                 <div class="row">
                     <div class="footer_widget_content text-center">
@@ -406,7 +429,7 @@
 
                                         <div class="form-group">
                                             <input type="text" class="form-control" placeholder="Subject">
-                                        </div> <!-- end of form-group -->
+                                        </div>
 
                                         <div class="form-group">
                                             <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
@@ -420,7 +443,87 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+
+
+        <!-- =========================== Start Contact Section ============================== -->
+        <div class="container contactwithme" id="contact">
+            <div class="container contact">
+
+                <div class="row contact">
+
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="contact_header">
+                            <h1>Contact with me</h1></div>
+                        <form id="contact-form" method="post" action="contact.php" role="form">
+
+                            <div class="messages"></div>
+
+                            <div class="controls">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Firstname *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Lastname *</label>
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_phone">Phone</label>
+                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <!-- /.8 -->
+
+                </div>
+                <!-- /.row-->
+
+            </div>
+            <!-- /.container-->
+        </div>
+
+        <!-- =========================== End Contact Section ============================== -->
+
+
 
 
 
@@ -430,7 +533,8 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="copyright wow zoomIn" data-wow-duration="3s">
-							<p>Made with <i class="fa fa-heart"></i> by Silk Road Craft team 2017. All Rights Reserved</p>
+                          <!-- <i class="fa fa-heart"></i> -->
+							<p>Made with  by Silk Road Craft team 2017. All Rights Reserved</p>
 						</div>
                     </div>
                 </div>
@@ -449,5 +553,6 @@
         <script src="assets/js/wow/wow.min.js"></script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/contact.js"></script>
     </body>
 </html>

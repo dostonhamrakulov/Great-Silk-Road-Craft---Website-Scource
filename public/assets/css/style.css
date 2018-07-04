@@ -1,14 +1,5 @@
 
 
-/*
-
-Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
-
-*/
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 html,
 body {
     background-color: #333;
@@ -21,10 +12,6 @@ body {
     font-family: 'roboto', sans-serif;
     font-weight: 300;
 }
-
-/*==========================================
-PRE LOADER
-==========================================*/
 
 .preloader {
     position: fixed;

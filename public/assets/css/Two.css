@@ -85,3 +85,21 @@ body {
     box-shadow: 0px 0px 35px  black;
 
 }
+
+.avatar {
+  border-radius: 85%;
+}
+
+.avatar-small {
+  border-radius: 85%;
+}
+
+.badge {
+  line-height: 40px !important;
+  width: 40px !important;
+  padding: 0 !important;
+  background: #D73B3A !important;
+  position: absolute !important;
+  top: -15px !important;
+  left: -15px !important;
+}

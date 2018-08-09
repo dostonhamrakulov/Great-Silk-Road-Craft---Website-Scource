@@ -1,0 +1,29 @@
+# Doston Hamrakulov
+
+## Uzbek ikat Website 
+
+This is source code of <a href="https://greatsilkroadcraft.com/index.html" target="_blank">Uzbekikat.com</a> and regularly I update this source, so that you will not miss. But I do not share images and you can only get code.
+
+### Programming languages and frameworks
+```[PHP, JavaScript, HTML, CSS, Bootstrap]
+// PHP, JavaScript, HTML, CSS, Bootstrap 
+```
+
+### IDE
+```[atom]
+// atom
+```
+
+## Author
+**Doston Hamrakulov**
+>*Software Engineer, Web Developer, Freelancer*
+
+
+### Screens:
+
+
+<p align="center">
+	<img src="https://github.com/dostonhamrakulov/Uzbek-ikat---website-source/blob/master/images/home.png" />
+</p>
+
+### Enjoy :)

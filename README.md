@@ -1,8 +1,8 @@
 # Doston Hamrakulov
 
-## Uzbek ikat Website 
+## Great Silk Road Craft 
 
-This is source code of <a href="https://greatsilkroadcraft.com/index.html" target="_blank">Uzbekikat.com</a> and regularly I update this source, so that you will not miss. But I do not share images and you can only get code.
+This is source code of <a href="https://greatsilkroadcraft.com/index.html" target="_blank">greatsilkroadcraft.com</a> and regularly I update this source, so that you will not miss. But I do not share images and you can only get code.
 
 ### Programming languages and frameworks
 ```[PHP, JavaScript, HTML, CSS, Bootstrap]

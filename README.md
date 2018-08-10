@@ -23,7 +23,7 @@ This is source code of <a href="https://greatsilkroadcraft.com/index.html" targe
 
 
 <p align="center">
-	<img src="https://github.com/dostonhamrakulov/Uzbek-ikat---website-source/blob/master/images/home.png" />
+	<img src="https://github.com/dostonhamrakulov/Great-Silk-Road-Craft---Website-Scource/blob/master/assets/home.png" />
 </p>
 
 ### Enjoy :)
